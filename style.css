@@ -25,7 +25,7 @@ body {
   left: 0;
   position: absolute;
   right: 0;
-  top: 20vh;
+  top: 25vh;
 }
 
 .one {
@@ -43,16 +43,16 @@ body {
 
 .four .text-box {
   border: 3px solid #aaa;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 0 auto;
   padding: 10px;
   position: relative;
-  width: 600px;
+  width: 550px;
 }
 
 .text-box p {
   margin: 0;
-  text-align: left;
+  text-align: justify;
 }
 
 .text-box span {
@@ -204,7 +204,7 @@ body {
 }
 
 .wish-hbd {
-  font-size: 3em;
+  font-size: 4.5em;
   margin: 0;
   text-transform: uppercase;
 }

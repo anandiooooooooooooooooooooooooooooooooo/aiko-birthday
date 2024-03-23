@@ -101,11 +101,7 @@ const animationTimeline = () => {
             visibility: "visible",
         },
         0.05
-    )
-    .to(".fake-btn", 0.1, {
-        backgroundColor: "rgb(127, 206, 248)",
-    },
-    "+=4")
+    ) 
     .to(
         ".four",
         0.5, {
@@ -200,7 +196,7 @@ const animationTimeline = () => {
         "-=2"
     )
     .from(".hat", 0.5, {
-        x: -100,
+        x: 100,
         y: 350,
         rotation: -180,
         opacity: 0,
