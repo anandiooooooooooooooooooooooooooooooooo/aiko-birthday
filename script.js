@@ -54,7 +54,7 @@ const animationTimeline = () => {
     tl.to(".container", 0.6, {
         visibility: "visible"
     })
-/*     .from(".one", 0.7, {
+    .from(".one", 0.7, {
         opacity: 0,
         y: 10
     })
@@ -151,7 +151,7 @@ const animationTimeline = () => {
             opacity: 0,
         },
         "+=2"
-    ) */
+    )
     .staggerFrom(
         ".idea-6 span",
         0.8, {
